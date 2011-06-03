@@ -1,0 +1,10 @@
+﻿+++ WikiSettings/MECplugins
+
+[/archive]
+[/ePCR]
+[/mail-contacts]
+[/mail-settings]
+[/open with ape]
+[/PCR-mix]
+[/word processor]
+[/word processor]

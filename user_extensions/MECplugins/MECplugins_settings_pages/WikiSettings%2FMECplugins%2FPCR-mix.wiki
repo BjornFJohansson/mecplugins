@@ -1,0 +1,20 @@
+﻿result_text='''PCR volume(s) (volume x no of tubes) 50 x 1 + 20 x 1
+
+template (v/v) 2.5 %
+
+primer 1 fwdprimername stock 10 uM , final 1 uM
+primer 2 revprimername stock 10 uM , final 1 uM
+
+buffer 10xTaq Buffer w (NH4)2SO4 stock 10.0 x , final 1.0 x
+
+MgSO4 homemade 2009-03-23 stock 50.0 mM , final 2.0 mM
+
+dNTP stock 1.0 mM , final 100.0 uM
+
+DNA pol (v/v) 2.0 %
+extra volume 10.0 %
+
+#	mm	temp	Description
+r1	48.75	1.25    template
+r2	19.5	0.5	    negative control
+'''

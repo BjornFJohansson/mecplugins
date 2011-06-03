@@ -1,0 +1,4 @@
+﻿style_path                      = os.path.join(MECplugins_ini.MECplugins_settings_folder,"MECplugins_style_document_for_textutils.odt")
+command_line_for_rst2odt        = "rst2odt --stylesheet="+style_path+" "+file+" "+ file + ".odt"
+command_line_for_word_processor = "soffice -writer " + file + ".odt"
+

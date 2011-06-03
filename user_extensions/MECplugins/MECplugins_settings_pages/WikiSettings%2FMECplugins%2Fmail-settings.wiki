@@ -1,0 +1,19 @@
+﻿# This page contains your user id and password for the mail plugin. This page will be evaluated as python code using the exec() function. For this reason, be careful not to introduce syntax errors.
+# Your mail contacts are on the page "WikiSettings/MECplugins/mail-contacts"
+# The formatting of email addresses on the mail contacts page should comply with RFC2822 (http://www.faqs.org/rfcs/rfc2822). Some examples are:
+# user@example.com
+# user@example.com, anotheruser@example.com
+# User <user@example.com>
+# User <user@example.com>, Another User <anotheruser@example.com>
+
+now = strftimeUB("%H:%M:%S")
+smtpserver =        'smtp.gmail.com'                # 'mail.uminho.pt'
+smtpport  =         587                             # 25
+smtphostname =      None                            #'localhost'
+smtptimeout =       30
+smtpuser  =         'padwikid@gmail.com'            # a12345 or d1234
+smtppass  =         'ch2p9AQuR8tHaSp76egeDRUWu'     # webmail password
+From =              '<padwikid@gmail.com>'          # <JohnDoe@bio.uminho.pt>
+sender =            '<padwikid@gmail.com>'          # <JohnDoe@bio.uminho.pt>
+subject =           'Text from '+CurrentWikiWord+' in Users WikidPad '+now
+extra_recipient =   ''

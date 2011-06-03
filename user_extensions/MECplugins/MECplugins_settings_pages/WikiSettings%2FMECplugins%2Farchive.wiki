@@ -1,0 +1,46 @@
+﻿# WikiSettings/MECplugins/archive
+# This page contains:
+# PGP key name
+# PGP key passphrase
+# email address for trusted time stamping service
+# this page will be evaluated as python code using the exec() function
+# for this reason, be careful not to introduce any syntax errors
+
+timestamp           = strftimeUB("%Y-%m-%d_%H_%M_%S")
+archivedir          = os.path.join(wiki.dataDir,"archive")
+archivesubdir       = os.path.join(archivedir, timestamp)
+zipfilename         = timestamp +'_wikidPad_file_archive.zip'
+zipfilepath         = os.path.join(archivesubdir,zipfilename)
+signaturefilename   = zipfilename+".asc"
+signaturefilepath   = os.path.join(archivesubdir,signaturefilename)
+keyid               = 'keyID'                       # <=== change this to your own keyID
+passphrase          = 'PASSWORD'                    # <=== change this to your own password for yout key
+smtpserver          = 'smtp.gmail.com'              # 'mail.uminho.pt'
+smtpport            = 587  # 25
+smtphostname        ='localhost'
+smtptimeout         = 30
+smtpuser  =         'padwikid@gmail.com'            # a12345 or d1234
+smtppass  =         'ch2p9AQuR8tHaSp76egeDRUWu'     # webmail password
+From =              '<padwikid@gmail.com>'          # <JohnDoe@bio.uminho.pt>
+sender =            '<padwikid@gmail.com>'          # <JohnDoe@bio.uminho.pt>
+subject             = 'Signature for stamping' 
+to                  = '<clear@stamper.itconsult.co.uk>'
+recipients          = None   # add more recipients here if you like!
+content             ='''This email contains a GnuPrivacyGuard signature of the file 
+
+$zipfilename
+
+This signature was created $timestamp
+using the key $keyid
+
+This text was sent as an email to PGP Digital Timestamping Service ($to) for 
+stamping. The URL of this service is http://www.itconsult.co.uk/stamper.htm
+The last PGP signature in this email text is a trusted timestamp from stamper.
+The verification of this timestamp using stampers public key 
+(http://www.itconsult.co.uk/stamper/stampinf.htm) followed by verification of 
+GnuPrivacyGuard signature using $keyid proves the existence of the file
+
+$zipfilename
+
+at the time and date given in the box above.
+'''
