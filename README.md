@@ -12,7 +12,22 @@ Sequence utilities is a part of the mecplugins that can be installed alone from 
 
 Simple sequence manipulation is possible, such as finding complement, reverse complement and translation of nucleic acid sequences.
 
-[![Alt text for your video](http://img.youtube.com/vi/TrhoIwiYYDU/0.jpg)](http://www.youtube.com/watch?v=TrhoIwiYYDU)
+[![toggle sequence formats](http://img.youtube.com/vi/TrhoIwiYYDU/0.jpg)](http://www.youtube.com/watch?v=TrhoIwiYYDU)
+
+[![restriction analysis](http://img.youtube.com/vi/y5vkL9WgglY/0.jpg)](http://www.youtube.com/watch?v=y5vkL9WgglY)
+
+[![reverse complement, complement and translation](http://img.youtube.com/vi/6pNSM2sU7_8/0.jpg)](http://www.youtube.com/watch?v=6pNSM2sU7_8)
+
+[![tm](http://img.youtube.com/vi/ujMb2A3PJpE/0.jpg)](http://www.youtube.com/watch?v=ujMb2A3PJpE)
+
+[![PCR](http://img.youtube.com/vi/8zqKCJgP4so/0.jpg)](http://www.youtube.com/watch?v=8zqKCJgP4so)
+
+
+
+
+
+
+
 
 A PCR primer melting temparature (Tm) function is available for nucleotides in selection. 
 
