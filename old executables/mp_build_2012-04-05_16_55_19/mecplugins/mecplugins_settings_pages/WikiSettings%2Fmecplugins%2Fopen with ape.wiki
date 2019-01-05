@@ -1,0 +1,3 @@
+﻿path_to_ape_lin ='tclsh /home/bjorn/ApE/AppMain.tcl'
+path_to_ape_win ='"C:\\Program Files\\ApE\\ApE.exe"'
+path_to_ape_mac =''

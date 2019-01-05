@@ -1,0 +1,17 @@
+### mail settings ###
+
+smtpserver      =  'smtp.gmail.com'                # 'mail.uminho.pt'
+smtpport        =  587                             # 25
+smtphostname    =  None                            # 'localhost'
+smtpuser        =  'padwikid@gmail.com'            # a12345 or d1234
+smtppass        =  'ch2p9AQuR8tHaSp76egeDRUWu'     # webmail password
+sender          =  '<padwikid@gmail.com>'          # <JohnDoe@bio.uminho.pt>
+#bcc_recipients  =  'karl11@gmail.com,karl12@gmail.com'
+
+# This page contains your user id and password for the mail plugin. This page will be evaluated as python code using the exec() function. For this reason, be careful not to introduce syntax errors.
+# Your mail contacts are on the page "WikiSettings/mecplugins/mail-contacts"
+# The formatting of email addresses on the mail contacts page should comply with RFC2822 (http://www.faqs.org/rfcs/rfc2822). Some examples are:
+# user@example.com
+# user@example.com, anotheruser@example.com
+# User <user@example.com>
+# User <user@example.com>, Another User <anotheruser@example.com>
